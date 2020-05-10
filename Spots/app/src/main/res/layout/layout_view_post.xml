@@ -1,0 +1,131 @@
+<merge xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/relLayout1"
+            android:background="@drawable/grey_border_bottom">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginEnd="10dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/profile_photo">
+
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="profile name"
+                android:textSize="20dp"
+                android:layout_centerVertical="true"
+                android:lineHeight="50dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="20dp"
+                android:id="@+id/username">
+
+            </TextView>
+        </RelativeLayout>
+
+        <com.nickb.spots.Utils.SquareImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relLayout1"
+            android:background="@drawable/grey_border_bottom"
+            android:id="@+id/post_view"
+            android:scaleType="centerCrop">
+        </com.nickb.spots.Utils.SquareImageView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/post_view"
+            android:layout_marginTop="15dp"
+            android:id="@+id/relLayout2">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Like"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/white_rounded_button"
+                android:lineHeight="50dp"
+                android:textColor="@color/blue"
+                android:id="@+id/btnLike"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/relLayout2"
+            android:id="@+id/relLayout3">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:lineHeight="50dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:id="@+id/title"/>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@+id/location"
+                android:layout_marginEnd="10dp"
+                android:id="@+id/btnLocation"
+                android:src="@drawable/ic_upload_black">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bundoora"
+                android:textSize="14sp"
+                android:textAlignment="center"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="20dp"
+                android:layout_alignParentEnd="true"
+                android:lineHeight="50dp"
+                android:textColor="@color/black"
+                android:id="@+id/location"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/relLayout3">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textSize="14sp"
+                android:textAlignment="center"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:lineHeight="50dp"
+                android:textColor="@color/black"
+                android:id="@+id/description"/>
+        </RelativeLayout>
+
+        <include layout="@layout/layout_bottom_navigation_view"></include>
+
+
+    </RelativeLayout>
+</merge>

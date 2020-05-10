@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1081962470391",
+    "firebase_url": "https://spots-b622a.firebaseio.com",
+    "project_id": "spots-b622a",
+    "storage_bucket": "spots-b622a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081962470391:android:939f08fd242086d1d76cf2",
+        "android_client_info": {
+          "package_name": "com.nickb.spots"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081962470391-lp6t4vm5drhgphmo4gtk8a9attnvc7ak.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nickb.spots",
+            "certificate_hash": "f980125c0cf1ba334228216033836db0d3909430"
+          }
+        },
+        {
+          "client_id": "1081962470391-kf4oepg4j4a4t2g86o43jjdcdijftsjk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nickb.spots",
+            "certificate_hash": "67dc79ac0bda96519cde2a21ec7c82c91fc2184b"
+          }
+        },
+        {
+          "client_id": "1081962470391-blkuoi90dhh38qbfoer4ad452elugtre.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMx4FNeyF9CgIenVaOfjvruTvnor-myhQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1081962470391-blkuoi90dhh38qbfoer4ad452elugtre.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

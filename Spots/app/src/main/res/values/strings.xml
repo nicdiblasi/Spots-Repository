@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Spots</string>
+
+    <!--API KEY-->
+    <string name="google_maps_api_key">AIzaSyBQF566noaGdXCdxzCZ22Rc25NzTGuy9pU</string>
+
+    <!--fragments-->
+    <string name="edit_profile_fragment">Edit Profile</string>
+    <string name="sign_out_fragment">Sign Out</string>
+    <string name="profile_fragment">Profile</string>
+    <string name="view_post_fragment">View Post</string>
+
+    <!--firebase database fields-->
+    <string name="dbname_user">user</string>
+    <string name="dbname_user_account_settings">user_account_settings</string>
+    <string name="dbname_spots">spots</string>
+    <string name="dbname_user_spots">user_spots</string>
+
+
+    <!--database field names-->
+    <string name="field_username">username</string>
+    <string name="field_display_name">display_name</string>
+    <string name="field_home_town">home_town</string>
+    <string name="field_home_city">home_city</string>
+    <string name="field_description">description</string>
+    <string name="field_user_id">user_id</string>
+    <string name="field_likes">likes</string>
+    <string name="field_title">title</string>
+    <string name="field_date_created">date_created</string>
+    <string name="field_photo_id">photo_id</string>
+    <string name="field_image_path">image_path</string>
+    <string name="field_tags">tags</string>
+    <string name="field_location">location</string>
+    <string name="field_latitude">latitude</string>
+    <string name="field_longitude">longitude</string>
+    <string name="field_feature">feature</string>
+
+
+
+
+
+
+    <!--photo types-->
+    <string name="new_photo">new_photo</string>
+    <string name="profile_photo">profile_photo</string>
+
+
+    <!--bundle arg names-->
+    <string name="activity_number">activity_number</string>
+
+
+    <!--intent extras-->
+    <string name="selected_image">selected_image</string>
+    <string name="selected_bitmap">selected_bitmap</string>
+    <string name="return_to_fragment">return_to_fragment</string>
+
+
+    <!--strings-->
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="string_open_camera">Open Camera</string>
+    <string name="string_next">Next</string>
+    <string name="spot">spot</string>
+
+
+
+
+</resources>
